@@ -19,6 +19,6 @@ from library._02_html_inside_view import app
 
 if __name__ == '__main__':
     app.debug = True
-    host = os.environ.get('IP', '0.0.0.0')
+    host = os.environ.get('IP', '127.0.0.1')
     port = int(os.environ.get('PORT', 8080))
     app.run(host=host, port=port)
