@@ -39,7 +39,7 @@ def authors():
     return render_template('routing/authors.html')
 
 
-@app.route('/author/<authors_last_name>')
-def author(authors_last_name):
+@app.route('/author/<authors_name>')
+def author(authors_name):
     return render_template('routing/author.html',
-                           author=AUTHORS_INFO[authors_last_name])
+                           author=AUTHORS_INFO[authors_name])
