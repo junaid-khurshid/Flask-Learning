@@ -4,8 +4,8 @@ import os
 # from library._02_html_inside_view import app
 # from library._03_template_str_inside_view import app
 # from library._04_template_outside_view import app
-from library._05_basic_routing import app
-# from library._06_raising_custom_errors import app
+# from library._05_basic_routing import app
+from library._06_raising_custom_errors import app
 # from library._07_request_info import app
 # from library._08_redirects import app
 # from library._09_simple_database_app import app
